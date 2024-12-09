@@ -1,25 +1,25 @@
-import { Check, CreditCard, BarChart, Globe, Clock } from "lucide-react";
+import { Check, Globe, Clock, Shield, Users } from "lucide-react";
 
 const features = [
   {
-    title: "Simple Checkout",
-    description: "Streamlined checkout process optimized for conversion and user experience.",
-    icon: CreditCard,
+    title: "Maggiore Credibilità",
+    description: "Un sito web professionale comunica ai clienti che sei serio, affidabile e al passo coi tempi.",
+    icon: Shield,
   },
   {
-    title: "Recurring Billing",
-    description: "Automated billing system for subscriptions and recurring payments.",
+    title: "Visibilità H24",
+    description: "Sei sempre aperto online. Anche quando il tuo negozio o il tuo ufficio è chiuso, il sito continua a lavorare per te.",
     icon: Clock,
   },
   {
-    title: "Global Payments",
-    description: "Accept payments from customers anywhere in the world.",
-    icon: Globe,
+    title: "Maggiore Coinvolgimento",
+    description: "Un sito web non parla solo dei tuoi prodotti o servizi, ma anche di te e del tuo team.",
+    icon: Users,
   },
   {
-    title: "Detailed Analytics",
-    description: "Get insights into your business with comprehensive reporting.",
-    icon: BarChart,
+    title: "Informazioni Sempre Accessibili",
+    description: "Orari di apertura, numeri di telefono, servizi offerti, promozioni: tutto a portata di clic.",
+    icon: Globe,
   },
 ];
 
@@ -28,10 +28,10 @@ const Features = () => {
     <section id="features" className="py-16 container-padding">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Everything You Need to Run & Grow Your Business
+          Perché ogni attività deve avere un sito web oggi
         </h2>
         <p className="text-neutral-600 text-center mb-12 max-w-2xl mx-auto">
-          All the tools and features you need to accept payments, manage subscriptions, and scale your business globally.
+          Un sito web ben fatto è molto più di una semplice pagina online. È il centro della tua presenza digitale.
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           {features.map((feature, index) => (

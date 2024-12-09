@@ -1,20 +1,20 @@
 const testimonials = [
   {
-    quote: "Switching to this platform has transformed how we handle payments. The simplicity is unmatched.",
-    author: "Sarah Chen",
-    role: "CEO at TechFlow",
+    quote: "Finalmente un servizio pensato per chi non vuole spendere una fortuna ma vuole comunque un sito professionale. Ho avuto il mio sito pronto in una settimana!",
+    author: "Maria",
+    role: "Fisioterapista",
     avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop",
   },
   {
-    quote: "The recurring billing feature alone has saved us countless hours of manual work each month.",
-    author: "Mark Thompson",
-    role: "Founder of DataSync",
+    quote: "Non ho mai avuto tempo per occuparmi di queste cose. Ora il mio sito è sempre aggiornato e sicuro. Il tutto al costo di un caffè al giorno",
+    author: "Simone",
+    role: "Parrucchiere",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
   },
   {
-    quote: "Their global payment solutions helped us expand into new markets seamlessly.",
-    author: "Elena Rodriguez",
-    role: "COO at GlobalTech",
+    quote: "Il mio sito è sempre aggiornato e non devo preoccuparmi di nulla. Ho più tempo per concentrarmi sul mio lavoro.",
+    author: "Martino",
+    role: "Medico",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
   },
 ];
@@ -24,12 +24,9 @@ const Testimonials = () => {
     <section id="testimonials" className="py-16 container-padding bg-neutral-100">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          See What Our Customers Are Saying
+          Ecco perché altri come te ci hanno scelto
         </h2>
-        <p className="text-neutral-600 text-center mb-12 max-w-2xl mx-auto">
-          Join thousands of businesses that trust us with their payments.
-        </p>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 mt-12">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="glass-card p-6 rounded-xl">
               <p className="text-neutral-600 mb-6">{testimonial.quote}</p>
